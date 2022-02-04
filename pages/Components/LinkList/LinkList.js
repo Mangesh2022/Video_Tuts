@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Description from "../Description/Description";
 
 const LinkList = (props) => {
   function CourseStructuringHandler() {

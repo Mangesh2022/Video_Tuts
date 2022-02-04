@@ -16,8 +16,8 @@ const New_Arrivals = () => {
           </div>
         </div>
         <div className="flex w-4/6 full flex-row">
-          {stepsData.map((data) => (
-            <CourseCards title={data.title} desc={data.description} />
+          {stepsData.map((data, i) => (
+            <CourseCards key={i} title={data.title} desc={data.description} />
           ))}
         </div>
       </div>

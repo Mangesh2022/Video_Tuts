@@ -10,18 +10,18 @@ const Hero_Area = () => {
               <h1 className="text-4xl font-bold text-black  text-center">
                 Get Certified : Get Ahead
               </h1>
-              <p class="text-xl text-gray-700 text-center mt-2">
+              <p className="text-xl text-gray-700 text-center mt-2">
                 Access thousands of online courses. Learn any topic, anytime.
               </p>
             </div>
-            <div class=" relative mt-2">
+            <div className=" relative mt-2">
               <input
                 type=""
                 name=""
-                class=" py-4 px-4 text-black-400 text-sm pl-4 rounded-md w-full"
+                className=" py-4 px-4 text-black-400 text-sm pl-4 rounded-md w-full"
               />
-              <button class="text-base">
-                <i class="fal fa-search"></i>
+              <button className="text-base">
+                <i className="fal fa-search"></i>
               </button>
             </div>
           </div>
@@ -35,6 +35,7 @@ const Hero_Area = () => {
             src={"/images/banner1.jpg"}
             layout="fill"
             className="object-cover object-top"
+            alt=""
           />
         </div>
       </div>

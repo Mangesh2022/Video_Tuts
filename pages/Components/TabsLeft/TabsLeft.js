@@ -110,7 +110,7 @@ function Tabs() {
         </div>
         <Link href="/">
           <a className="text-sm pl-2 text-purple-700 flex justify-start text-center items-center align-middle">
-            Why can't Submit ?
+            Why can&apos;t Submit ?
           </a>
         </Link>
       </div>

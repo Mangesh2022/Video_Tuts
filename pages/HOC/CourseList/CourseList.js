@@ -12,8 +12,9 @@ const CourseList = () => {
           <div className="text-4xl font-bold">Featured topics by category</div>
         </div>
         <div className="flex full flex-row">
-          {stepsData.map((data) => (
+          {stepsData.map((data, i) => (
             <CourseCards
+              key={i}
               title={data.title}
               countInRow="4"
               desc={data.description}

@@ -21,12 +21,13 @@ const Services_section = () => {
   return (
     <div className="pt-16 container mx-auto   ">
       <div className=" text-center my-4 text-4xl font-semibold text-black">
-        See what's latest in the marketplace
+        See what&apos;s latest in the marketplace
       </div>
       <div className="flex justify-items-center  flex-wrap flex-row">
         {ServiceCard &&
-          ServiceCard.map((data) => (
+          ServiceCard.map((data, i) => (
             <Card
+              key={i}
               title={data.title}
               cardimg={data.image}
               desc={data.description}

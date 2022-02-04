@@ -116,7 +116,11 @@ export default function RegForm() {
   );
 
   const [step, setStep] = useState(0);
-  const FieldGroups = [<PersonFields />, <ContactFields />, <AddressFields />];
+  const FieldGroups = [
+    <PersonFields key={1} />,
+    <ContactFields key={2} />,
+    <AddressFields key={3} />,
+  ];
 
   return (
     <div>

@@ -17,11 +17,11 @@ const Banner = () => {
               Whether you are dealing with your daily busy office schedule or
               not able to take out the extra time from your college, you can
               still Up-Skill yourself with Learnfly. Access latest topics
-              anytime, anywhere from any device on the move. You really don't
-              have to attend the physical classroom.
+              anytime, anywhere from any device on the move. You really
+              don&apos;t have to attend the physical classroom.
             </div>
             <div className="text-white text-xl mt-4">
-              See how "Tim" made it happen{" "}
+              See how &ldquo;Tim&rdquo; made it happen{" "}
             </div>
           </div>
           <div className="w-1/2 mr-4 text-white flex-row flex justify-center align-middle text-center items-center">

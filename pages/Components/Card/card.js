@@ -18,6 +18,7 @@ const Card = (props) => {
                 src={"/images/banner1.jpg"}
                 layout="fill"
                 className="object-cover rounded-md object-center h-60"
+                alt=""
               />
             </div>
           </div>

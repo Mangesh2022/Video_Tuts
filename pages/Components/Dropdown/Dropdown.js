@@ -12,8 +12,9 @@ const Dropdown = ({selected, setSelected}) => {
         </div>
         {isActive && (
           <div className="absolute text-black p-2 w-full rounded-md shadow-xl mt-2 bg-gray-100 ">
-            {options.map((option) => (
+            {options.map((option, i) => (
               <div
+                key={i}
                 className="hover:bg-gray-200 border-b mt-2"
                 onClick={(e) => {
                   setSelected(option);

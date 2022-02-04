@@ -32,6 +32,7 @@ const CourseStructuring = () => {
           {LeftSideLinkListData.map((data) => {
             return (
               <LinkList
+                key={""}
                 title={data.title}
                 data1={data.data1}
                 data2={data.data2}
@@ -46,7 +47,7 @@ const CourseStructuring = () => {
           </div>
           <Link href="/">
             <a className="text-sm pl-2 text-purple-700 flex justify-start text-center items-center align-middle">
-              Why can't Submit ?
+              Why can&apos;t Submit ?
             </a>
           </Link>
         </div>
