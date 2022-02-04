@@ -1,0 +1,58 @@
+[
+  {
+    "id": "01",
+    "title": "Home deep cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "02",
+    "title": "Office and shop cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "03",
+    "title": "kitchen deep cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "04",
+    "title": "bathroom deep cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "05",
+    "title": "sofa cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "06",
+    "title": "carpet cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "07",
+    "title": "water tank cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  },
+  {
+    "id": "08",
+    "title": "car cleaning",
+    "description": "We provide a wide range of Home cleaning service near by you. ",
+    "image": "images/cardimg.png",
+    "isFeatured": true
+  }
+]
